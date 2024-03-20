@@ -1,5 +1,5 @@
 a {
-    color: white;
+    color: #242424;
     font-size: 1em;
     font-family: "Manrope", sans-serif;
     text-decoration: none;
@@ -16,6 +16,7 @@ a {
 ul {
   font-size: 1em;
   font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
 }
 
 h1 {
@@ -24,14 +25,34 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  color: #f9f8ff;
+}
+
 p {
   font-size: 1.1em;
   font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
 }
 
-.class {
-  font-family: "Montserrat", sans-serif;
+.contact {
+  font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: italic;
+  color: linear-gradient(90deg, #8360c3, #2ebf91);
+  border-radius: 50px;
+}
+
+div {
+  background-color: white;
+}
+
+body {
+  background-color: #1f2039;
+}
+
+.skills {
+  border-bottom-right-radius: 1px;
+  color: #8e86b5;
 }
