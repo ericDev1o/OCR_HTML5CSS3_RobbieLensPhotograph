@@ -1,5 +1,5 @@
 a {
-    color: white;
+    color: #242424;
     font-size: 1em;
     font-family: "Manrope", sans-serif;
     text-decoration: none;
@@ -16,6 +16,7 @@ a {
 ul {
   font-size: 1em;
   font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
 }
 
 h1 {
@@ -24,9 +25,14 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  color: #f9f8ff;
+}
+
 p {
   font-size: 1.1em;
   font-family: "Manrope", sans-serif;
+  color: #f9f8ff;
 }
 
 h1, p {
