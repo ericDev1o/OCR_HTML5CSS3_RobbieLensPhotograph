@@ -29,9 +29,21 @@ p {
   font-family: "Manrope", sans-serif;
 }
 
-.class {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: italic;
+h1, p {
+  color: #ff1493;
+}
+h1, p {
+  color: rgb(255, 20, 147);
+}
+
+a:hover {
+  text-decoration: "underline"; 
+}
+
+a[class="cta"]:hover {
+  background: linear-gradient(90deg, #696484, #8788ba);
+}
+
+img:hover {
+  opacity: 0.5;
 }
