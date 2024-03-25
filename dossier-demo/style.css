@@ -53,3 +53,7 @@ a[class="cta"]:hover {
 img:hover {
   opacity: 0.5;
 }
+
+.banner {
+  background: linear-gradient(to-right,#000046, #1cb5e0);
+}
