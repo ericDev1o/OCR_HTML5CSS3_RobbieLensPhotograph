@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+}
+
+header {
+  padding: 20px 50px 20px 50px;
+}
+
+footer {
+  padding: 20px 50px 20px 50px;
+}
+
+section {
+  padding: 80px;
+  width: 100%;
+  margin: auto;
+}
+
 a {
     color: #242424;
     font-size: 1em;
@@ -15,16 +33,20 @@ h1 {
   color: #a5b4fc;
   font-size: 3.5em;
   font-family: "Montserrat", sans-serif;
+  margin-top: 10%;
 }
 
 h2 {
   color: #f9f8ff;
+  margin-top: 5%;
 }
 
 p {
   font-size: 1.1em;
   font-family: "Manrope", sans-serif;
   color: #f9f8ff;
+  margin: 10px;
+  padding: 5px;
 }
 
 h1, p {
@@ -50,9 +72,13 @@ img:hover {
   background: linear-gradient(to-right,#000046, #1cb5e0);
 }
 
-#card {
+.card {
   border-radius: 10px;
   box-shadow: 5px, 5px, 0px, rgba(0, 0, 0);
+}
+
+.card-body {
+  margin: 5%;
 }
 
 .contact {
